@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  ** Icons File ** -->
+    <link href="../imgs/favicon.png" rel="Icon" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- ** CSS Files ** -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/portofolio.css" />
+    <!-- ** Font Family ** -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevFolio BootStrap Portofolio</title>
+  </head>
+  <body data-bs-spy="scroll">
+    <!-- ======================= Navbar ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bolder fs-3" href="../index.html"
+          >DevFolio</a
+        >
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#blog"
+                >Blog</a
+              >
+            </li>
+            <!--? start of dropdown -->
+            <li class="nav-item pe-3 dropdown">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown<i class="fas fa-chevron-down ms-2"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 1</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Deep Drop Down <i class="fas fa-chevron-right ms-2"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 4</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!--? end of dropdown -->
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ======================= Header Section ==================== -->
+    <section class="header-section container-fluid position-relative">
+      <div class="row">
+        <div
+          class="header-layer bg-primary bg-opacity-75 w-100 h-100 position-absolute top-0 start-0"
+        ></div>
+      </div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col">
+            <div class="inner pt-5">
+              <div
+                class="header-txt mt-5 pt-5 text-center d-flex justify-content-center align-items-center flex-column"
+              >
+                <h1 class="text-uppercase text-white fw-bolder pb-2">
+                  portfolio details
+                </h1>
+                <p>
+                  <a href="../index.html" class="text-capitalize text-white"
+                    >home</a
+                  >
+                  Portofolio Details
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Main Section ==================== -->
+    <section class="main-section container">
+      <div class="row gy-3 my-3">
+        <div class="col-md-8">
+          <div class="inner py-5">
+            <div id="carouselIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner pb-5">
+                <div class="carousel-item active">
+                  <img
+                    src="../imgs/portfolio-details-1.jpg"
+                    class="d-block w-100"
+                    alt="Img 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imgs/portfolio-details-2.jpg"
+                    class="d-block w-100"
+                    alt="Img 2"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../imgs/portfolio-details-3.jpg"
+                    class="d-block w-100"
+                    alt="Img 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="inner">
+            <div class="portofolio-card shadow mt-5 p-4">
+              <h3 class="position-relative fw-bolder mb-5 fs-4">
+                Project information
+              </h3>
+              <ul class="card-details ps-0">
+                <li class="mb-2">
+                  <span class="fw-bolder">Category: </span>Web design
+                </li>
+                <li class="mb-2">
+                  <span class="fw-bolder">Client: </span>ASU Company
+                </li>
+                <li class="mb-2">
+                  <span class="fw-bolder">Project date: </span>01 March, 2020
+                </li>
+                <li class="mb-2">
+                  <span class="fw-bolder">Project URL: </span>www.example.com
+                </li>
+              </ul>
+            </div>
+            <div class="portofolio-details pt-5">
+              <h2 class="fw-bolder pb-3 fs-3">
+                This is an example of portfolio detail
+              </h2>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
+                itaque inventore commodi labore quia quia. Exercitationem
+                repudiandae officiis neque suscipit non officia eaque itaque
+                enim. Voluptatem officia accusantium nesciunt est omnis tempora
+                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
+                eius.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Footer Section ==================== -->
+    <footer class="container-fluid bg-primary p-4">
+      <div class="row">
+        <div class="col">
+          <div class="inner">
+            <div class="footer-text text-white text-center">
+              <p class="mb-0">
+                © Copyright <span class="fw-bolder">DevFolio</span>. All Rights
+                Reserved
+              </p>
+              <p>Designed by BootstrapMade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ======================= Fixed Arrow-Up ==================== -->
+    <div
+      class="fixed-arrow position-fixed bottom-0 end-0 bg-primary rounded-circle"
+    >
+      <a href="portofolio.html">
+        <i class="fa-solid fa-arrow-up text-white p-3"></i>
+      </a>
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

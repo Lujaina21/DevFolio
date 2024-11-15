@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  ** Icons File ** -->
+    <link href="../imgs/favicon.png" rel="Icon" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <!-- ** CSS Files ** -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <!-- ** Font Family ** -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>DevFolio BootStrap Blog</title>
+  </head>
+  <body data-bs-spy="scroll">
+    <!-- ======================= Navbar ==================== -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bolder fs-3" href="../index.html"
+          >DevFolio</a
+        >
+        <button
+          class="navbar-toggler text-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#blog"
+                >Blog</a
+              >
+            </li>
+            <!--? start of dropdown -->
+            <li class="nav-item pe-3 dropdown">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown<i class="fas fa-chevron-down ms-2"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 1</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Deep Drop Down <i class="fas fa-chevron-right ms-2"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 2</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 3</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bolder bg-transparent px-3 py-2"
+                    href="#"
+                    >Drop Down 4</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <!--? end of dropdown -->
+            <li class="nav-item pe-3">
+              <a
+                class="nav-link fw-bolder position-relative text-uppercase"
+                href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ======================= Header Section ==================== -->
+    <section class="header-section container-fluid position-relative">
+      <div class="row">
+        <div
+          class="header-layer bg-primary bg-opacity-75 w-100 h-100 position-absolute top-0 start-0"
+        ></div>
+      </div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col">
+            <div class="inner pt-5">
+              <div
+                class="header-txt mt-5 pt-5 text-center d-flex justify-content-center align-items-center flex-column"
+              >
+                <h1 class="text-uppercase text-white fw-bolder pb-2">
+                  blog details
+                </h1>
+                <p>
+                  <a href="../index.html" class="text-capitalize text-white"
+                    >home</a
+                  >
+                  Library / Details
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Main Section ==================== -->
+    <section class="container main-section">
+      <div class="row my-5">
+        <!--**********left side**********-->
+        <div class="col-md-8">
+          <!--Box 1-->
+          <div class="inner bg-body p-5 position-relative">
+            <img src="../imgs/post-1.jpg" class="w-100" alt="Blog Post" />
+            <h1 class="fs-2 my-3 fw-bolder">
+              Lorem ipsum dolor sit amet consec tetur adipisicing
+            </h1>
+            <div class="small-links px-4 py-2 d-md-flex">
+              <div class="link me-4">
+                <i class="fa-regular fa-user pe-1 text-black"></i>
+                <a href="#"><span class="text-primary">Jason London</span></a>
+              </div>
+              <div class="link me-4">
+                <i class="fa-solid fa-tag pe-1 text-black"></i>
+                <a href="#"><span class="text-primary">Web Design</span></a>
+              </div>
+              <div class="link me-4">
+                <i class="fa-regular fa-comment-dots pe-1 text-black"></i>
+                <a href="#"><span class="text-primary">14</span></a>
+              </div>
+            </div>
+            <div class="paragraphs position-relative my-2">
+              <p>
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Cras ultricies ligula sed magna dictum porta. Quisque velit
+                nisi, pretium ut lacinia in, elementum id enim. Praesent sapien
+                massa, convallis a pellentesque nec, egestas non nisi.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                posuere cubilia Curae; Donec velit neque, auctor sit amet
+                aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut
+                libero malesuada feugiat.
+              </p>
+              <p>
+                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed
+                magna dictum porta. Mauris blandit aliquet elit, eget tincidunt
+                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                sollicitudin molestie malesuada.
+              </p>
+              <p>
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent sapien massa, convallis a pellentesque nec, egestas non
+                nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Donec rutrum congue leo eget malesuada.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                quis lorem ut libero malesuada feugiat. Curabitur arcu erat,
+                accumsan id imperdiet et, porttitor at sem. Vivamus suscipit
+                tortor eget felis porttitor volutpat. Vivamus suscipit tortor
+                eget felis porttitor volutpat. Quisque velit nisi, pretium ut
+                lacinia in, elementum id enim.
+              </p>
+
+              <p class="main-p fst-italic fs-5 ps-3 my-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                posuere erat a ante.
+              </p>
+
+              <p>
+                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed
+                magna dictum porta. Mauris blandit aliquet elit, eget tincidunt
+                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                sollicitudin molestie malesuada.
+              </p>
+            </div>
+          </div>
+          <!--Box 2-->
+          <div class="comments-section inner bg-body p-5 my-5">
+            <h4 class="fs-2 position-relative box-title">Comments (34)</h4>
+            <div class="comments-list py-5">
+              <div
+                class="comment-box pb-5 d-flex flex-row justify-content-center"
+              >
+                <div class="comment-img">
+                  <img
+                    src="../imgs/testimonial-2.jpg"
+                    class="w-100"
+                    alt="Profile Picture"
+                  />
+                </div>
+                <div class="comment-txt px-4">
+                  <h4 class="text-capitalize fw-bolder fs-h5">
+                    Oliver Colmenares
+                  </h4>
+                  <span class="fst-italic text-black">18 Sep 2017</span>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores reprehenderit, provident cumque ipsam temporibus
+                    maiores quae natus libero optio, at qui beatae ducimus
+                    placeat debitis voluptates amet corporis.
+                  </p>
+                  <a href="#" class="text-primary">Reply</a>
+                </div>
+              </div>
+
+              <div
+                class="comment-box pb-5 d-flex flex-row justify-content-center"
+              >
+                <div class="comment-img">
+                  <img
+                    src="../imgs/testimonial-4.jpeg"
+                    class="w-100"
+                    alt="Profile Picture"
+                  />
+                </div>
+                <div class="comment-txt px-4">
+                  <h4 class="text-capitalize fw-bolder fs-h5">Carmen Vegas</h4>
+                  <span class="fst-italic text-black">18 Sep 2017</span>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores reprehenderit, provident cumque ipsam temporibus
+                    maiores quae natus libero optio, at qui beatae ducimus
+                    placeat debitis voluptates amet corporis, veritatis
+                    deserunt.
+                  </p>
+                  <a href="#" class="text-primary">Reply</a>
+                </div>
+              </div>
+
+              <div
+                class="comment-box ms-4 pb-5 d-flex flex-row justify-content-center"
+              >
+                <div class="comment-img w-25">
+                  <img
+                    src="../imgs/testimonial-2.jpg"
+                    class="w-100"
+                    alt="Profile Picture"
+                  />
+                </div>
+                <div class="comment-txt px-4">
+                  <h4 class="text-capitalize fw-bolder fs-h5">
+                    Oliver Colmenares
+                  </h4>
+                  <span class="fst-italic text-black">18 Sep 2017</span>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores reprehenderit, provident cumque ipsam temporibus
+                    maiores quae.
+                  </p>
+                  <a href="#" class="text-primary">Reply</a>
+                </div>
+              </div>
+
+              <div class="comment-box d-flex flex-row justify-content-center">
+                <div class="comment-img w-25">
+                  <img
+                    src="../imgs/testimonial-2.jpg"
+                    class="w-100"
+                    alt="Profile Picture"
+                  />
+                </div>
+                <div class="comment-txt px-4">
+                  <h4 class="text-capitalize fw-bolder fs-h5">
+                    Oliver Colmenares
+                  </h4>
+                  <span class="fst-italic text-black">18 Sep 2017</span>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolores reprehenderit, provident cumque ipsam temporibus
+                    maiores quae natus libero optio.
+                  </p>
+                  <a href="#" class="text-primary">Reply</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Box 3-->
+          <div class="replies-section inner bg-body p-5 mb-4">
+            <h4 class="fs-2 position-relative box-title">Leave a Reply</h4>
+
+            <form class="inputs py-5">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="input mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name *"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="input mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Email *"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Website"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="input mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Comment *"
+                      rows="7"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-start">
+                <input
+                  class="btn btn-primary border-0 text-capitalize py-3 px-5 fs-5"
+                  type="submit"
+                  value="send message"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!--**********right side**********-->
+        <div class="col-md-4">
+          <!--search box-->
+          <div class="inner bg-body p-5">
+            <div class="search-box">
+              <h1
+                class="sidebar-tit position-relative text-uppercase fs-3 fw-bolder mb-4 ms-4"
+              >
+                search
+              </h1>
+              <form>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search for..."
+                    aria-label="Search for..."
+                  />
+                  <span class="input-btn">
+                    <button class="btn btn-primary btn-search" type="button">
+                      <span class="fas fa-search px-2"></span>
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!--recent post box-->
+          <div class="inner bg-body p-5 my-5">
+            <div class="recent-box">
+              <h1
+                class="sidebar-tit position-relative text-uppercase fs-3 fw-bolder mb-4 ms-4"
+              >
+                recent post
+              </h1>
+              <div class="list">
+                <ul>
+                  <li class="mb-3 position-relative">
+                    <a href="#">Atque placeat maiores.</a>
+                  </li>
+                  <li class="mb-3 position-relative">
+                    <a href="#"> Lorem ipsum dolor sit amet consectetur </a>
+                  </li>
+                  <li class="mb-3 position-relative">
+                    <a href="#">Nam quo autem exercitationem.</a>
+                  </li>
+                  <li class="mb-3 position-relative">
+                    <a href="#">Atque placeat maiores nam quo autem</a>
+                  </li>
+                  <li class="mb-3 position-relative">
+                    <a href="#">Nam quo autem exercitationem.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--archives box-->
+          <div class="inner bg-body p-5 my-5">
+            <div class="archives-box">
+              <h1
+                class="sidebar-tit position-relative text-uppercase fs-3 fw-bolder mb-4 ms-4"
+              >
+                archives
+              </h1>
+              <div class="list">
+                <ul>
+                  <li class="mb-2 position-relative">
+                    <a href="#">September, 2017.</a>
+                  </li>
+                  <li class="mb-2 position-relative">
+                    <a href="#">April, 2017.</a>
+                  </li>
+                  <li class="mb-2 position-relative">
+                    <a href="#"> Nam quo autem exercitationem.</a>
+                  </li>
+                  <li class="mb-2 position-relative">
+                    <a href="#"> Atque placeat maiores nam quo autem</a>
+                  </li>
+                  <li class="mb-2 position-relative">
+                    <a href="#"> Nam quo autem exercitationem. </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--tags box-->
+          <div class="inner bg-body p-5 my-5">
+            <div class="tags-box">
+              <h1
+                class="sidebar-tit position-relative text-uppercase fs-3 fw-bolder mb-4 ms-4"
+              >
+                tags
+              </h1>
+              <div class="list">
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >Web.</span
+                >
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >Design.</span
+                >
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >Travel.</span
+                >
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >Photoshop</span
+                >
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >Corel Draw</span
+                >
+                <span class="badge rounded-pill text-bg-primary py-2 px-3 mb-2"
+                  >JavaScript</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================= Footer Section ==================== -->
+    <footer class="container-fluid bg-primary p-4">
+      <div class="row">
+        <div class="col">
+          <div class="inner">
+            <div class="footer-text text-white text-center">
+              <p class="mb-0">
+                © Copyright <span class="fw-bolder">DevFolio</span>. All Rights
+                Reserved
+              </p>
+              <p>Designed by BootstrapMade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ======================= Fixed Arrow-Up ==================== -->
+    <div
+      class="fixed-arrow position-fixed bottom-0 end-0 bg-primary rounded-circle"
+    >
+      <a href="blog.html">
+        <i class="fa-solid fa-arrow-up text-white p-3"></i>
+      </a>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
