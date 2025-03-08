@@ -5,11 +5,11 @@ $(window).scroll(function () {
     let windowOffset = $(window).scrollTop();
     if (windowOffset > abtSection - 200) {
         $(".navbar").css({ backgroundColor: "rgba(0,0,0,0.9)" });
-        $(".navbar").css({ padding: "0 30px" });
+        $(".navbar").css({ padding: "13px 30px" });
         $(".fixed-arrow").fadeIn(200);
     } else {
         $(".navbar").css({ backgroundColor: "transparent" });
-        $(".navbar").css({ padding: "0" });
+        $(".navbar").css({ padding: "8px" });
         $(".fixed-arrow").fadeOut(200);
     }
 })
