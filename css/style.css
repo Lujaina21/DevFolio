@@ -59,10 +59,19 @@ h5 {
 .section-title > p {
   color: var(--secondary-color);
 }
+/*==================== Arrow Styles ====================*/
+.fixed-arrow {
+  z-index: 999999;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  display: none;
+}
 
 /*==================== Navbar Styles ====================*/
 nav {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: transparent;
 }
 
 nav .nav-link {
